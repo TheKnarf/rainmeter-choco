@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>rainmeter</id>
+    <version>4.5.13</version>
+    <packageSourceUrl>https://github.com/TheKnarf/rainmeter-choco</packageSourceUrl>
+    <owners>TheKnarf</owners>
+    <!-- ============================== -->
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>Rainmeter (Unofficial)</title>
+    <authors>Rainmeter</authors>
+    <projectUrl>https://www.rainmeter.net/</projectUrl>
+    <iconUrl>https://rawgit.com/aronovgj/chocolatey/a4d186f47d8efacaed3cca1b010799566fc9253f/icons/rainmeter.png</iconUrl>
+    <copyright>Rainmeter</copyright>
+
+    <licenseUrl>https://github.com/rainmeter/rainmeter/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/rainmeter/rainmeter</projectSourceUrl>
+    <docsUrl>https://docs.rainmeter.net/</docsUrl>
+    <bugTrackerUrl>https://github.com/rainmeter/rainmeter/issues</bugTrackerUrl>
+    <tags>rainmeter customization</tags>
+    <summary>Rainmeter, desktop customization tool.</summary>
+    <description>Rainmeter allows you to display customizable skins on your desktop, from hardware usage meters to fully functional audio visualizers. You are only limited by your imagination and creativity.</description>
+    <!-- =============================== -->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
